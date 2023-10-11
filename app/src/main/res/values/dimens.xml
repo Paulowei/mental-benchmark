@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+    <resources>
+        <dimen name = "custom_view_padding_1">9dp</dimen>
+        <dimen name  ="button_height_2">65dp</dimen>
+        <dimen name = "container_padding_1">8dp</dimen>  
+        <dimen name = "content_margin_2">10dp</dimen>
+        <dimen name = "content_padding_2">9dp</dimen>
+        <dimen name = "custom_view_margin_1">8dp</dimen>
+        <dimen name = "container_margin_1">10dp</dimen>
+        <dimen name = "content_margin_1">9dp</dimen>
+        <dimen name = "content_padding_1">8dp</dimen>
+        <!--<dimen name ="container_padding_1">15dp</dimen>-->
+        <!--<dimen name = "button_height_2">70dp</dimen>  -->
+        <dimen name  ="content_height_2">10px</dimen>
+        <dimen name = "content_width_2">9sp</dimen>
+        <dimen name ="edit_text_height_2">70sp</dimen> 
+        <dimen name = "edit_text_width_2">135px</dimen>
+        <dimen name = "special_margin_4">9dp</dimen>
+        <dimen name ="static_image_height">85px</dimen>
+        <dimen name = "static_image_width">85sp</dimen>
+        <dimen name = "container_padding_4">9px</dimen>   
+        <dimen name = "container_margin_4">8dp</dimen>   
+        <dimen name = "content_padding_3">10dp</dimen>
+        <dimen name = "content_margin_3">9sp</dimen>
+        <dimen name = "content_padding_4">8px</dimen>
+        <dimen name = "content_margin_4">10sp</dimen>
+        <dimen name = "container_padding_3">9px</dimen>
+        <!--<dimen name = "container_padding_4">16sp</dimen> -->
+        <dimen name = "container_margin_3">8sp</dimen>
+        <!--<dimen name = "container_margin_4">16dp</dimen> -->
+        <dimen  name = "image_animation_height_1">50px</dimen> 
+        <dimen name = "image_animation_width_1">50px</dimen>
+            <dimen name =  "login_text_size_5">15sp</dimen>
+            <dimen name ="main_text_size_4">16dp</dimen>
+        <dimen name = "container_margin_2">7dp</dimen> 
+        <dimen name = "login_text_size_6">17.5sp</dimen>
+        <dimen name = "container_padding_2">7px</dimen>
+        <dimen name= "main_text_size_5">17dp</dimen>  
+        <dimen name = "template_text_size_7">15.5sp</dimen> 
+        <dimen name = "template_text_size_6">17.5sp</dimen>  
+        <dimen name =  "view_padding_5" >12dp</dimen>  
+        <dimen name = "view_margin_6">4dp</dimen>  
+        <dimen name = "main_text_size_6">16.5sp</dimen>  
+        <dimen name = "chronometer_text_size">22.5sp</dimen>  
+        <dimen name  = "puzzle_5_margin">6.5dp</dimen>
+    </resources>
+    <!--       <dimen name = "container_margin_3">8dp</dimen>-->

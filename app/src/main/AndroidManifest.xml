@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.moderneinstein.android.effort"
+      android:versionCode="1"    
+      android:versionName="1.0">    
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+        <activity android:name="RootActivity"
+                  android:label="@string/app_name"
+                  android:exported ="true">
+            <intent-filter>     
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>   
+        </activity>   
+              <!--android:label = "login_name"-->
+              <!--android:label = "select_name"-->
+       <activity  
+        android:name = "LoginActivity"
+        android:exported = "true"
+        android:parentActivityName = "RootActivity">
+        </activity>
+        <activity
+        android:name ="SelectActivity"
+        android:exported = "true"  
+        android:parentActivityName = "RootActivity">  
+        </activity>
+        <activity 
+        android:parentActivityName = "SelectActivity"
+        android:exported = "false"
+        android:name = "Puzzle3Activity">
+        </activity>  
+       <!-- <activity
+        android:name ="LoginActivity"
+        android:exported = "true"
+        android:parentActivityName ="RootActivity">
+        </activity>-->
+        <activity
+        android:parentActivityName = "RootActivity"
+        android:exported = "true"
+        android:name = "SignupActivity"> 
+        </activity>
+        <activity
+        android:parentActivityName = "SelectActivity"
+        android:exported = "true"
+        android:name = "Puzzle4Activity">   
+        </activity>
+        <activity
+        android:parentActivityName = "SelectActivity"
+        android:exported = "true" 
+        android:name = "Puzzle5Activity"> 
+        </activity>
+    </application>
+</manifest>

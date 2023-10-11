@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "665243921322",
+    "project_id": "crest-yield",
+    "storage_bucket": "crest-yield.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665243921322:android:b590b2d486b39e482959d3",
+        "android_client_info": {
+          "package_name": "com.moderneinstein.android.effort"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5UZ3MCa4XZLq-vFO_DYPzE-WPTAsmI7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

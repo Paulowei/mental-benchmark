@@ -1,0 +1,74 @@
+plugins {
+    id('com.android.application') version '7.3.1'
+      // Add the Google services Gradle plugin
+    id 'com.google.gms.google-services'  
+   //  id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 31
+    defaultConfig {
+        applicationId 'com.moderneinstein.android.effort' //official   //arcade
+        minSdkVersion 29
+        targetSdkVersion 31
+        versionCode 1
+        versionName '1.0'
+     //   testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled false 
+             signingConfig=null
+             embedMicroApp=true
+        }
+    }
+   //   compileSdkVersion 'android-17'
+   //  buildToolsVersion '17.0.0'
+    sourceSets {
+        main {
+            res.srcDirs =  ['src/main/res']
+            java.srcDirs= ['src/main/java']
+            manifest.srcFile 'src/main/AndroidManifest.xml'
+        }
+    }
+    /*buildTypes {
+        release {
+        //    runProguard false
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+            minifyEnabled false 
+             signingConfig=null
+             embedMicroApp=true
+        }
+    }    */
+} 
+/*
+   def fragment_version = "1.5.7"
+        def cardview_version =  "1.0.0"  
+  //  implementation 'androidx.appcompat:appcompat:1.2.0'
+  //  implementation 'com.google.android.material:material:1.2.0'
+   // implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.13.1'
+        implementation "androidx.fragment:fragment:$fragment_version"
+          implementation "androidx.cardview:cardview:$cardview_version"
+            implementation("com.google.firebase:firebase-analytics")
+  //  androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+   //androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+      implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-firestore")  
+    implementation(platform("com.google.firebase:firebase-bom:32.2.2"))  */
+dependencies {
+    
+     def cardview_version =  "1.0.0"  
+     def fragment_version = "1.5.7"   
+    def preference_version = "1.2.1"
+      testImplementation 'junit:junit:4.13.1'
+    implementation "androidx.preference:preference:$preference_version"
+     implementation "androidx.cardview:cardview:$cardview_version"    
+    implementation "androidx.fragment:fragment:$fragment_version"     
+    implementation  "com.google.firebase:firebase-auth"
+    implementation  "com.google.firebase:firebase-firestore"
+    implementation  platform("com.google.firebase:firebase-bom:32.2.2")
+}  
+

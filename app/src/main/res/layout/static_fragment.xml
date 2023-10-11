@@ -1,0 +1,20 @@
+<?xml  version = "1.0"  encoding  ="UTF-8"?>
+<RelativeLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/apk/tools"
+    android:padding = "@dimen/container_padding_4"
+    android:layout_margin = "@dimen/container_margin_4"  
+    android:id = "@+id/static_fragment_1">
+    <FrameLayout
+    android:layout_margin ="@dimen/container_margin_3"
+    android:padding = "@dimen/container_padding_3"
+    android:id = "@+id/static_fragment_1_1">
+        <ImageView
+        android:background = "#4C32D5"
+        android:layout_margin = "@dimen/content_margin_4"
+        android:padding = "@dimen/content_padding_3"
+        android:id = "@+id/static_fragment_1_1_1"
+        android:layout_height = "@dimen/static_image_height"
+        android:layout_width = "@dimen/static_image_width" />
+    </FrameLayout>
+</RelativeLayout>

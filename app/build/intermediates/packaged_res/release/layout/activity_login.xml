@@ -1,0 +1,86 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout
+xmlns:android = "http://schemas.android.com/apk/res/android"
+xmlns:tools = "http://schemas.android.com/apk/tools"
+android:id = "@+id/login_1"
+android:layout_margin = "@dimen/container_margin_1"
+android:padding ="@dimen/container_padding_1"
+android:layout_height = "wrap_content"
+android:layout_width = "wrap_content">
+
+    <LinearLayout
+    android:orientation ="vertical"
+    android:layout_height = "wrap_content"
+    android:layout_width= "match_parent"
+     android:layout_centerInParent= "true"
+    android:id = "@+id/login_1_1"
+    android:padding = "@dimen/container_padding_1"
+    android:layout_margin ="@dimen/container_margin_1"
+    >
+        <RelativeLayout
+        android:layout_margin = "@dimen/container_margin_1"
+        android:padding = "@dimen/container_padding_1"
+         android:layout_height = "wrap_content"
+        android:layout_width = "match_parent"
+        android:layout_gravity = "top"
+        android:id = "@+id/login_1_1_1">
+            <TextView
+            android:padding = "@dimen/content_padding_1"
+            android:layout_margin ="@dimen/content_margin_1"
+            android:layout_centerHorizontal = "true"
+            android:id = "@+id/login_1_1_1_1"
+            android:layout_height = "wrap_content"
+            android:layout_width ="match_parent"  
+            android:text= "@string/login_username_text"/>
+            <EditText
+            android:layout_centerHorizontal = "true"
+            android:padding ="@dimen/content_padding_2"
+            android:layout_margin ="@dimen/content_margin_2"
+            android:id = "@+id/login_1_1_1_2"
+             android:layout_height ="@dimen/content_height_2"
+            android:layout_width = "match_parent" 
+            android:hint ="@string/login_username_hint"/>
+            
+            <TextView
+            android:layout_margin = "@dimen/content_margin_1"
+            android:layout_height ="wrap_content"
+            android:layout_width  = "wrap_content"
+            android:padding = "@dimen/content_padding_1"
+            android:id = "@+id/login_1_1_1_3"
+            android:layout_centerHorizontal = "true"
+            android:text ="@string/login_password_text"/>
+            <EditText
+            android:id = "@+id/login_1_1_1_4"
+            android:layout_centerHorizontal = "true"
+            android:layout_width = "match_parent"
+            android:layout_height = "@dimen/edit_text_height_2"
+            android:layout_margin = "@dimen/content_margin_2"
+            android:padding = "@dimen/content_padding_2"
+            android:hint = "@string/login_password_hint"/>
+        </RelativeLayout>
+        <LinearLayout
+        android:id = "@+id/login_1_1_2"
+         android:layout_gravity="bottom|center"
+        android:layout_weight = "1"
+        android:layout_width ="match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_margin ="@dimen/container_margin_1"
+        android:padding = "@dimen/container_padding_1"
+        android:orientation = "vertical">
+            <Button 
+            android:layout_gravity ="center"
+            android:layout_width ="match_parent"
+            android:text = "@string/login_text"
+            android:id = "@+id/login_1_1_2_1"
+            android:layout_height ="@dimen/button_height_2"
+            android:padding = "@dimen/content_padding_2" 
+            android:layout_margin = "@dimen/content_margin_2"/>
+        </LinearLayout>
+        <RelativeLayout
+        android:id = "@+id/login_1_1_3"
+        android:layout_weight = "1"
+        android:layout_gravity ="bottom"
+        layout_width = "match_parent">
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

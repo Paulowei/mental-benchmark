@@ -1,0 +1,211 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<LinearLayout
+xmlns:android = "http://schemas.android.com/apk/res/android"
+xmlns:tools = "http://schemas.android.com/apk/res-auto" 
+android:layout_margin = "@dimen/container_margin_3"
+android:padding = "@dimen/container_padding_3"
+android:id = "@+id/puzzle_3_1"
+android:orientation = "vertical" 
+android:layout_width = "match_parent"
+android:layout_height = "match_parent" 
+android:background ="@color/login_color_7" >
+  <ScrollView
+  android:layout_height= "match_parent"
+android:layout_width = "match_parent"
+android:layout_gravity = "center_vertical"
+android:padding ="@dimen/container_padding_4"  
+android:background = "@color/login_color_6"
+android:id = "@+id/puzzle_3_1_1">
+    <LinearLayout
+    android:orientation ="vertical"
+    android:padding="@dimen/container_padding_3"
+    android:layout_gravity ="center_horizontal"
+    android:layout_height = "wrap_content"
+    android:layout_width = "match_parent"
+    android:background ="@color/login_color_5"
+    android:id = "@+id/puzzle_3_1_1_1">
+    <!--    android:id = "@+id/puzzle_3_1_1" -->
+    <!-- android:layout_weight = "0.6"-->
+    <LinearLayout
+    android:orientation = "horizontal"
+    android:layout_margin = "@dimen/container_margin_3"
+    android:layout_gravity = "center_horizontal"
+    android:layout_height ="wrap_content"
+    android:layout_width ="match_parent"
+    android:background = "@color/login_color_5"
+    android:id = "@+id/puzzle_3_1_1_1_1" 
+    android:padding = "@dimen/container_padding_4">
+            <TextView
+            android:text = "@string/neutral_string_4"
+            android:layout_margin =  "@dimen/content_margin_3"
+            android:layout_weight = "0.5"
+            android:layout_gravity = "top|center_vertical"
+            android:layout_height ="wrap_content" 
+            android:layout_width = "match_parent"
+            android:background ="@color/custom_color_3"
+            android:textSize = "@dimen/main_text_size_4"
+            android:padding= "@dimen/content_padding_1"
+            android:gravity ="center"
+            android:id = "@+id/puzzle_3_1_1_1_1_1" />
+            <TextView
+            android:layout_gravity ="center_horizontal|center_vertical"
+             android:gravity = "center_horizontal"
+            android:textSize ="@dimen/main_text_size_5"
+            android:padding = "@dimen/content_padding_2"
+            android:layout_margin = "@dimen/content_margin_2"
+            android:layout_width = "match_parent"
+             android:layout_height  = "wrap_content"
+            android:id = "@+id/puzzle_3_1_1_1_1_2"
+             android:text = "@string/score_text_3"
+            android:background = "@color/custom_color_6"
+            android:layout_weight = "0.5"
+            />
+    </LinearLayout>
+    <!--    android:id = "@+id/puzzle_3_2_1"  -->
+    <LinearLayout
+    android:layout_width = "match_parent"
+    android:layout_height ="wrap_content"
+    android:layout_gravity ="center_vertical"
+    android:orientation = "horizontal"
+    android:background ="@color/login_color_5"
+    android:id = "@+id/puzzle_3_1_1_1_2">
+    <!--     android:layout_weight = "1.0"  -->
+    <!--    android:layout_gravity ="center_horizontal"-->
+            <Button
+            android:layout_height  = "wrap_content"
+            android:layout_width = "wrap_content"
+            android:layout_margin ="@dimen/content_margin_3"
+            android:padding= "@dimen/content_padding_2"
+            android:background = "@color/login_color_4"
+                 android:layout_weight ="2.0"
+            android:layout_gravity ="left|center_vertical"
+            android:text = "@string/puzzle_3_start_string"
+            android:id = "@+id/puzzle_3_1_1_1_2_1"  /> 
+            <Button
+            android:padding ="@dimen/content_padding_2"
+            android:layout_margin ="@dimen/content_margin_2"
+            android:layout_width ="wrap_content"
+            android:layout_height = "wrap_content"
+            android:background ="@color/custom_color_3"
+                 android:layout_weight ="2.0" 
+          android:layout_gravity ="right|center_vertical"
+          android:text = "@string/highlight_string_5"
+          android:id = "@+id/puzzle_3_1_1_1_2_2"/> 
+    </LinearLayout>
+        <!--  android:layout_gravity = "left"
+              android:layout_weight = "1.0"
+           android:id = "@+id/puzzle_3_1_1_1"  -->
+        <!--    android:orientation = "vertical"  -->  
+        <LinearLayout
+        android:layout_margin = "@dimen/container_margin_4"
+        android:padding = "@dimen/container_padding_4"
+        android:layout_gravity = "center_horizontal"
+        android:id = "@+id/puzzle_3_1_1_1_6"
+        android:layout_height= "wrap_content"
+        android:layout_width = "match_parent"  > 
+              <TextView
+                android:layout_gravity = "center_horizontal"
+                android:gravity = "center_horizontal"
+                android:id = "@+id/puzzle_3_1_1_1_6_1"
+                android:layout_margin = "@dimen/content_margin_3"
+                android:padding = "@dimen/content_padding_2"
+                android:layout_height = "wrap_content"
+                android:layout_width = "match_parent"
+                android:background = "@color/login_color_5"/>
+        </LinearLayout> 
+           <RelativeLayout
+            android:padding = "@dimen/container_padding_3"
+            android:layout_margin = "@dimen/container_margin_4"
+           android:layout_gravity = "center_horizontal"
+           android:gravity = "center_vertical"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:background = "@color/puzzle_3_color_4"
+            android:id =  "@+id/puzzle_3_1_1_1_3">
+            <!--  android:background = "@color/puzzle_3_color_4" -->  
+                <GridLayout
+                android:layout_margin = "@dimen/container_margin_3"
+                android:padding = "@dimen/container_padding_3"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center_horizontal"
+                android:gravity = "center"
+                android:id = "@+id/puzzle_3_1_1_1_3_1"
+                android:background = "@color/login_color_4"> 
+                </GridLayout>
+           </RelativeLayout>
+            <LinearLayout
+            android:orientation ="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height ="wrap_content"
+            android:layout_gravity = "center_horizontal" 
+            android:layout_margin = "@dimen/container_margin_2"
+            android:padding ="@dimen/container_padding_1"
+            android:background = "@color/login_color_5"
+            android:id = "@+id/puzzle_3_1_1_1_4">   
+            <!--  android:text = "@string/puzzle_3_validate_string" -->
+                <Button
+                android:layout_gravity = "left"
+                android:layout_height = "wrap_content"
+                android:layout_width = "wrap_content"  
+                android:text = "validate"  
+                android:background= "@color/custom_color_3"  
+                android:layout_weight = "1.4"
+                android:padding = "@dimen/content_padding_3"
+                android:layout_margin ="@dimen/content_margin_4"
+                android:id = "@+id/puzzle_3_1_1_1_4_1"  />
+                <Button
+                android:layout_gravity = "right"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "@string/puzzle_3_reset_string"
+                android:background = "@color/login_color_4"
+                android:layout_margin="@dimen/content_margin_3" 
+                android:layout_weight = "1.4"  
+                android:padding ="@dimen/content_padding_2"
+                android:id = "@+id/puzzle_3_1_1_1_4_2"  />
+            </LinearLayout>
+            <RelativeLayout
+            android:layout_margin=  "@dimen/container_margin_4"
+            android:padding = "@dimen/container_padding_3"
+            android:layout_width =  "match_parent"
+            android:layout_height = "wrap_content"
+            android:gravity = "center"
+            android:id = "@+id/puzzle_3_1_1_1_5" >
+                <Switch
+                android:showText = "true"
+                android:textOn= "VRAI"
+                android:textOff = "FAUX"
+                android:layout_height = "wrap_content"  
+                android:layout_width = "wrap_content"
+                android:id = "@+id/puzzle_3_1_1_1_5_1"
+                />
+            </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+<!--        android:padding = "" -->
+<!--android:thumb = ""
+                android:track = ""-->
+<!-- android:id = ""-->
+<!--  <fragment
+        class = "com.moderneinstein.android.arcade.Puzzle3Fragment"
+        android:id = "@+id/puzzle_3_2_1_1"
+        android:layout_height = "wrap_content"
+        android:layout_width = "wrap_content"
+        android:layout_centerInParent= "true" />-->
+
+           <!--    <FrameLayout
+    android:id = "@+id/puzzle_3_1_3"
+    android:layout_weight ="1.0"
+    android:layout_gravity = "bottom" >
+    </FrameLayout> -->
+    <!--
+                    <EditText
+            android:hint = "@string/puzzle_3_prompt"
+            android:layout_weight = "0.5"
+            android:layout_gravity = "top"
+            android:layout_margin = "@dimen/content_margin_4"
+            android:layout_height = "40dp"
+            android:layout_width= "80dp"  />
+    -->

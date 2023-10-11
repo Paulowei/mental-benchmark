@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name = "app_name">Mental-BenchMark</string>
+    <string name="root_name">RootActivity</string>
+    <string name = "login_name">LoginActivity</string>
+    <string name = "select_name">SelectActivity</string> 
+    <string name = "signup_name">SignupActivity</string>
+    <string name = "puzzle_3_name">Puzzle-3</string>
+    <string name = "button_colour_1">543232</string>
+    <string  name = "login_text">Login</string>
+    <string name = "back_button_string">Back</string>
+    <string name = "login_password_hint">password</string>
+    <string name = "login_username_hint">username</string>
+    <string name ="login_password_text">password</string> 
+    <string name ="login_username_text">username</string>
+    <string name ="puzzle_3_text">Puzzle-3</string>  
+    <string name = "puzzle_4_text">Puzzle-4</string> 
+    <string name = "puzzle_5_text">Puzzle-5</string>
+    <string name = "puzzle_3_start_string">Commence</string>
+    <string name = "puzzle_3_correct_string">Correct</string>
+    <string name=  "puzzle_3_incorrect_warning">Incorrect</string>
+    <string name= "puzzle_3_validate_string">Validate</string>
+    <string name =  "puzzle_3_reset_string">Reset</string>
+    <string name ="username_text">Username</string>
+    <string name=  "password_text">Password</string>
+    <string name = "signup_text">Sign Up</string>
+    <string name = "score_text_3">Score : </string>
+    <string name = "neutral_string_4">Neutral</string>
+    <string name = "begin_string_5">Begin</string>
+    <string  name = "restart_string_4">Restart</string>
+    <string name = "highlight_string_5">Highlight</string> 
+    <string name = "puzzle_4_edited_string" >Edited</string> 
+    <string name = "range_text">Enter Text</string>
+</resources>

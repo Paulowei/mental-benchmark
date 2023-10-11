@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.moderneinstein.android.effort.app-merged_res-32:/layout_custom_view_4.xml.flat",
+        "source": "com.moderneinstein.android.effort.app-main-33:/layout/custom_view_4.xml"
+    },
+    {
+        "merged": "com.moderneinstein.android.effort.app-merged_res-32:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "com.moderneinstein.android.effort.app-main-33:/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.moderneinstein.android.effort.app-merged_res-32:/layout_activity_login.xml.flat",
+        "source": "com.moderneinstein.android.effort.app-main-33:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.moderneinstein.android.effort.app-merged_res-32:/layout_activity_puzzle_3.xml.flat",
+        "source": "com.moderneinstein.android.effort.app-main-33:/layout/activity_puzzle_3.xml"
+    },
+    {
+        "merged": "com.moderneinstein.android.effort.app-merged_res-32:/layout_signup.xml.flat",
+        "source": "com.moderneinstein.android.effort.app-main-33:/layout/signup.xml"
+    },
+    {
+        "merged": "com.moderneinstein.android.effort.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "com.moderneinstein.android.effort.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.moderneinstein.android.effort.app-merged_res-32:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "com.moderneinstein.android.effort.app-main-33:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.moderneinstein.android.effort.app-merged_res-32:/drawable-ldpi_ic_launcher.png.flat",
+        "source": "com.moderneinstein.android.effort.app-main-33:/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.moderneinstein.android.effort.app-merged_res-32:/layout_static_fragment.xml.flat",
+        "source": "com.moderneinstein.android.effort.app-main-33:/layout/static_fragment.xml"
+    },
+    {
+        "merged": "com.moderneinstein.android.effort.app-merged_res-32:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "com.moderneinstein.android.effort.app-main-33:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.moderneinstein.android.effort.app-merged_res-32:/layout_activity_select.xml.flat",
+        "source": "com.moderneinstein.android.effort.app-main-33:/layout/activity_select.xml"
+    },
+    {
+        "merged": "com.moderneinstein.android.effort.app-merged_res-32:/layout_activity_puzzle_4.xml.flat",
+        "source": "com.moderneinstein.android.effort.app-main-33:/layout/activity_puzzle_4.xml"
+    },
+    {
+        "merged": "com.moderneinstein.android.effort.app-merged_res-32:/layout_login.xml.flat",
+        "source": "com.moderneinstein.android.effort.app-main-33:/layout/login.xml"
+    },
+    {
+        "merged": "com.moderneinstein.android.effort.app-merged_res-32:/layout_activity_puzzle_5.xml.flat",
+        "source": "com.moderneinstein.android.effort.app-main-33:/layout/activity_puzzle_5.xml"
+    }
+]

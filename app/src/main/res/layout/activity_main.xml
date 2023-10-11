@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app ="http://schemas.android.com/apk/res-auto"
+  xmlns:tools = "http://schemas.android.com/apk/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/main_1"
+    tools:context = "RootActivity"
+    android:padding = "@dimen/container_padding_1"
+    android:background = "@color/login_color_7"
+    android:gravity ="center_vertical"> 
+    <!--    android:layout_centerHorizontal = "true"-->
+    <LinearLayout
+    android:layout_height ="wrap_content"
+    android:layout_width =  "match_parent"
+    android:layout_gravity ="center"
+    android:padding = "@dimen/container_padding_3"
+    android:layout_margin = "@dimen/container_margin_4"
+    android:id = "@+id/main_1_1"
+    android:orientation = "vertical">
+    <LinearLayout
+    android:layout_height = "wrap_content"
+    android:layout_width = "match_parent"
+    android:id = "@+id/main_1_1_1"
+    android:orientation = "vertical"
+    android:layout_margin = "@dimen/container_margin_1"
+    android:padding = "@dimen/container_padding_1" 
+    android:background ="@color/login_color_6"
+    android:layout_gravity = "center_horizontal ">
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/root_name"
+        android:id = "@+id/main_1_1_1_1"
+        android:layout_gravity = "center"
+        android:background ="@color/login_color_4"
+        android:textSize ="@dimen/main_text_size_4"
+        android:gravity = "center"
+        android:padding = "@dimen/content_padding_3"
+        android:layout_margin ="@dimen/content_margin_3"
+        />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_margin = "@dimen/container_margin_1"
+    android:padding ="@dimen/container_padding_1"
+    android:layout_height = "wrap_content"
+    android:layout_width = "match_parent"
+    android:id  = "@+id/main_1_1_2"
+    android:layout_gravity ="center_horizontal" 
+    android:background ="@color/login_color_6"
+    android:orientation ="vertical">
+    <!--center_horizontal|-->
+        <Button
+            android:layout_gravity = "center_horizontal"
+            android:text ="@string/select_name"
+            android:padding = "@dimen/content_padding_2"
+            android:layout_margin = "@dimen/content_margin_2" 
+            android:id = "@+id/main_1_1_2_1"  
+            android:background ="@color/login_color_4" 
+            android:layout_width ="fill_parent"
+            android:layout_height = "wrap_content"  />
+            <!-- com.moderneinstein.android.arcade.CustomView4 -->
+        <Button
+        android:id = "@+id/main_1_1_2_2"
+        android:text = "@string/signup_name"
+        android:layout_margin="@dimen/content_margin_1"
+        android:layout_gravity="center_horizontal"
+        android:padding = "@dimen/content_padding_1"
+        android:background = "@color/login_color_4"
+        android:layout_height ="wrap_content"
+        android:layout_width ="match_parent"
+        android:textSize ="@dimen/main_text_size_4"/>
+        <Button
+        android:id="@+id/main_1_1_2_3"
+        android:layout_margin ="@dimen/content_margin_4"
+        android:padding ="@dimen/content_padding_3"
+        android:layout_height ="wrap_content"
+        android:layout_width = "match_parent"
+        android:textSize ="@dimen/main_text_size_4"
+        android:text =  "@string/login_name"
+        android:background = "@color/login_color_4"/>
+    </LinearLayout>
+        <RelativeLayout
+    android:padding = "@dimen/container_padding_1"
+     android:layout_margin ="@dimen/special_margin_4"
+     android:id = "@+id/main_1_1_3" 
+     android:background ="@color/login_color_6"
+     android:layout_height = "wrap_content"
+    android:layout_width ="match_parent" >
+    </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+     <!--   android:layout_weight = "1.0"-->
+     <!--       android:layout_weight = "1.0" -->
+    <!---<RelativeLayout
+    android:padding = "@dimen/container_padding_1"
+     android:layout_margin ="@dimen/special_margin_4"
+     android:id = "@+id/main_1_3" 
+     android:background ="@color/login_color_6"
+     android:layout_height = "wrap_content"
+    android:layout_width ="match_parent" >
+    </RelativeLayout>-->
+        <!--    android:layout_alignParentBottom = "true"-->

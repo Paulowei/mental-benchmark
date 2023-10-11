@@ -1,0 +1,92 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<LinearLayout
+xmlns:android = "http://schemas.android.com/apk/res/android"
+ xmlns:tools = "http://schemas.android.com/apk/res-auto"
+android:layout_height = "match_parent"
+android:layout_width = "match_parent"
+android:id = "@+id/select_1"
+android:orientation =  "vertical"
+android:background = "@color/login_color_7"
+android:gravity = "center" >
+<LinearLayout
+android:layout_height ="380dp"
+android:layout_width ="match_parent"
+android:orientation = "vertical"
+android:layout_margin ="@dimen/container_margin_4"
+android:padding = "@dimen/container_padding_4"
+android:id = "@+id/select_1_1"
+android:background = "@color/custom_color_3"
+android:layout_gravity ="bottom"  >
+    <!--    android:layout_alignParentTop = "true"-->
+
+    <RelativeLayout
+    android:padding = "@dimen/container_padding_4"
+    android:layout_margin ="@dimen/container_margin_4"
+    android:layout_gravity = "bottom"
+    android:layout_height = "wrap_content"
+    android:layout_width = "match_parent"
+    android:id = "@+id/select_1_1_1" 
+    android:background = "@color/login_color_5">
+        <Button
+        android:layout_alignParentLeft ="true"
+        android:id = "@+id/select_1_1_1_1"
+        android:layout_width = "wrap_content "
+        android:layout_height ="wrap_content"
+        android:background = "@color/login_color_4"
+        android:layout_gravity ="bottom"
+         android:text = "@string/back_button_string" />
+        <!--     android:layout_toLeftOf = "@+id/select_1_1_2"-->
+        <!--<ImageView
+        android:layout_alignRight = "@+id/select_1_1"
+        android:layout_width = "@dimen/image_animation_width_1"
+        android:layout_height = "@dimen/image_animation_height_1"
+        android:id = "@+id/select_1_1_2"
+        android:layout_margin = "@dimen/content_margin_4" 
+        android:padding= "@dimen/content_padding_3"   />  -->
+    </RelativeLayout>
+    <!--    android:layout_centerHorizontal ="true"-->
+    <LinearLayout
+    android:orientation = "vertical"
+    android:layout_gravity = "bottom"
+    android:id  ="@+id/select_1_1_2"
+    android:layout_height ="wrap_content"
+    android:layout_width = "match_parent" 
+    android:padding = "@dimen/container_padding_1"
+    android:background = "@color/login_color_5"
+     android:layout_margin = "@dimen/container_margin_2"
+     android:gravity ="center">
+
+        <Button
+        android:id ="@+id/select_1_1_2_1"
+        android:layout_weight = "1"
+        android:layout_height ="wrap_content"
+        android:background="@color/login_color_4" 
+        android:layout_margin = "@dimen/custom_view_margin_1"
+        android:layout_width = "fill_parent" 
+        android:text = "@string/puzzle_3_text"
+        android:layout_gravity = "bottom"/>
+        <Button
+        android:id = "@+id/select_1_1_2_2"
+        android:layout_weight = "1"
+        android:layout_height = "wrap_content"
+        android:layout_width = "match_parent"
+        android:padding = "@dimen/custom_view_padding_1"
+        android:background = "@color/login_color_4"
+        android:layout_margin ="@dimen/custom_view_margin_1" 
+        android:text=  "@string/puzzle_4_text"
+        android:layout_gravity ="bottom" />
+        <Button
+        android:layout_margin = "@dimen/content_margin_2"
+        android:padding = "@dimen/content_padding_1"
+        android:id = "@+id/select_1_1_2_3"
+        android:layout_width ="match_parent"
+        android:layout_height ="wrap_content"
+        android:layout_weight = "1" 
+        android:background = "@color/login_color_4"
+        android:text =  "@string/puzzle_5_text"
+        android:layout_gravity ="bottom"/>
+    <!--        android:layout_gravity= "center_horizontal" -->
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
