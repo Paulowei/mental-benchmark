@@ -87,7 +87,12 @@ dimen template_text_size_6
 dimen template_text_size_7
 dimen view_margin_6
 dimen view_padding_5
+drawable download4
+drawable download5
+drawable download6
 drawable ic_launcher
+drawable images5
+drawable images6
 id login_1
 id login_1_1
 id login_1_1_1

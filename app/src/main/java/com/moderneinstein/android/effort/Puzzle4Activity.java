@@ -97,7 +97,14 @@ public class Puzzle4Activity extends Activity {
               long  needs = (long) (leads+shift*serial.size())   ;
             display((TextView)array4[4],threads,needs) ;
     }   
-
+    public void checks(boolean cover){ 
+        if(cover==true){setCount(counts+1 ) ;  
+            String  patterns = shell.getResources().getString(R.string.puzzle_3_correct_string ) ;
+            display ((TextView)array4[0],patterns,pauses[2]) ; }    
+            else{setCount(Integer.valueOf(1)) ;  
+                String patterns = shell.getResources().getString(R.string.puzzle_3_incorrect_warning ) ;
+            display((TextView)array4[0],patterns,pauses[2]) ; }    
+    }  // }
     // getResou.getString( 
       //R.string.puzzle_3_incorrect_warning) ;  
       // R.getString
@@ -108,11 +115,11 @@ public class Puzzle4Activity extends Activity {
             new  View.OnClickListener(){
                 @Override 
                 public void onClick(View greats){
-                    Intent intention = new Intent(active,SelectActivity.class) ;
-                    Intent  reverse = active.getParentActivityIntent ()  ; 
-                     intention.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP) ;
-                    startActivity(reverse) ; 
-                 //   startActivity(intention)  ;
+                    Intent intention = new Intent(active,SelectActivity.class) ;  
+                    Intent  reverse = active.getParentActivityIntent ()  ;    
+                     intention.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP) ;  
+                 //   startActivity(reverse) ;    
+                    startActivity(intention)  ;
                 }
             }
         ) ;  
@@ -128,23 +135,18 @@ public class Puzzle4Activity extends Activity {
             new View.OnLongClickListener( ) {
                 @Override
                 public boolean onLongClick(View visible){  
-                    boolean cover =   controls.incase()  ; 
-                    if(cover==true){setCount(counts+1 ) ;  
-                    String  patterns = shell.getResources().getString(R.string.puzzle_3_correct_string ) ;
-                    display ((TextView)array4[0],patterns,pauses[2]) ; }    
-                    else{setCount(Integer.valueOf(1)) ;  
-                        String patterns = shell.getResources().getString(R.string.puzzle_3_incorrect_warning ) ;
-                    display((TextView)array4[0],patterns,pauses[2]) ; }  
-                    controls.resetBuffer( ) ; 
-                    return cover ;   }   }  ) ; 
+                    boolean cover =   controls.incase()  ;   
+                    checks( cover);  
+                      controls.resetBuffer( ) ;   
+           return cover ;   }   }  ) ; 
                 array4[8].setOnClickListener( 
                     new View.OnClickListener() {
                         @Override 
                         public void onClick(View created){
-                            controls.resetBuffer() ; 
+                            controls.resetBuffer() ;   
                         }
                     }
-                ) ;  } 
+                ) ;  }  
     public  void setCount(Integer venue) {
          this.counts = venue ; 
         TextView noted = (TextView)array4[1] ; 
@@ -193,8 +195,29 @@ public class Puzzle4Activity extends Activity {
         }  ;
          threaded.start( ) ;
         // chromes.start() ;
+     } 
+     public void recents()  {
+           array4[7].setOnClickListener( 
+            new View.OnClickListener( ){ 
+                @Override
+                public void onClick(View stated){
+                    boolean cover =   controls.incase()  ;   
+                    checks( cover);  
+                      controls.resetBuffer( ) ;   
+                }
+            }
+           ) ; 
+        array4[3].setOnClickListener( 
+            new View.OnClickListener(){
+                @Override
+                public void onClick(View sides){
+                 //   sides.performLongClick() ;   
+                 actions( ) ;     
+                }
+            }
+        ) ;
      }
-    @Override 
+     @Override 
     public void  onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState) ;  
         setContentView(pointId) ; 
@@ -206,6 +229,7 @@ public class Puzzle4Activity extends Activity {
        controls = new Puzzle4Controller(array5[special]) ;  
      //   search() ; 
          initiate( ) ;  
-        adjustTimer( ) ; 
-    }
+        adjustTimer( ) ;   
+        recents()  ; 
+     }
 }

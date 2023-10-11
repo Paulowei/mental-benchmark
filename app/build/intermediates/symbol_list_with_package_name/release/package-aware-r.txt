@@ -866,10 +866,15 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable download4
+drawable download5
+drawable download6
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_down_24dp
 drawable ic_launcher
+drawable images5
+drawable images6
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
