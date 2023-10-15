@@ -1,7 +1,7 @@
 # mental-benchmark
 An android app that helps to test  mental abilities through a range of activities , and puzzles   
 
-. In order to compile the app ;
+In order to compile the app ;
 -Navigate to the root directory of this repository
 -Enter the following commands ;
 
