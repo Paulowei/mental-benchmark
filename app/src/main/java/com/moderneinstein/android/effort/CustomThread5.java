@@ -26,7 +26,7 @@ public class CustomThread5  extends Thread implements Runnable  {
     public Color  impede ;
     public static  int accepts = Color.argb(100,100,200,100) ;
     public static  int   amends = Color.argb(100,100,100,200 ) ;
-    public static int DEFAULT_PAUSE = 1300 ; 
+    public static int DEFAULT_PAUSE = 1150 ;  //   1300 ; 
     public long  pauses ; 
     public  boolean activated ; 
     public int  front ;

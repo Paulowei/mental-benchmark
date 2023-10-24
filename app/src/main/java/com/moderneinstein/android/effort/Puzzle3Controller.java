@@ -156,9 +156,9 @@ public class Puzzle3Controller   {
         }
         // select.clear() ;
         public void  perform(int  spans ){
-            int reach =  width*height ;
+            int reach =  width*height ; 
+              clearBuffer() ; 
           resolve(spans) ;   
-           clearBuffer() ; 
              new Thread(){
                @Override
                 public void run(){
@@ -178,12 +178,12 @@ public class Puzzle3Controller   {
          */
         public boolean validate(){
             boolean  cases = true ; 
-            if(braces.size( )==0){cases =  false ; }
-            if(braces.equals(select)){cases = true ;}
-            if(!select.equals(braces)){cases = false ;}
-            return cases  ;
-        }
-           //(ColorDrawable)viewed.getBackground( ) ;
+            if(braces.size( )==0){ return false  ; } 
+            if( select.size()==0){return false ; }
+            if(braces.equals(select)){return true ; }
+            return    false ; //cases  ;
+        }  // cases = false ;  // cases = true ;  //cases =  false ;
+           //(ColorDrawable)viewed.getBackground( ) ; //  if(!select.equals(braces)){return false  ; }
            /*
                 int useful = colors[1] ;
            ColorDrawable drawn  =  new ColorDrawable(colors[0]) ;
@@ -191,7 +191,7 @@ public class Puzzle3Controller   {
             */
         public void clearBuffer(){
             select.clear() ; 
-          //   braces.clear() ;  
+            //  braces.clear() ;  
           String clean = new String ( ) ;
           if(excess.size()>0){ 
             View  recents = excess.get(0) ;   

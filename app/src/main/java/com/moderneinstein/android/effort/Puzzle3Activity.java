@@ -134,10 +134,9 @@ public class Puzzle3Activity extends FragmentActivity{
         int higher = stage+bases  ; 
         stage = higher ;
     }
+    //  int point = bases ;  //          // //
     public boolean validate(){
-         // //
         boolean given =  handler.validate() ;  
-        int point = bases ;
         Resources access = source.getResources( ) ; 
          if(!given){
             String  names = access.getString(R.string.puzzle_3_incorrect_warning)  ;
@@ -220,16 +219,17 @@ public class Puzzle3Activity extends FragmentActivity{
                 }
             } 
          )  ; 
-        /* ((Button)icons.get(3)).setOnClickListener(
+         ((Button)icons.get(3)).setOnClickListener(
             new View.OnClickListener(){ 
                 @Override 
                 public void onClick(View states){ 
                     handler.perform(stage) ; 
                     if(verify ==true){
-                     }
+                     }  
+                    handler.clearBuffer( ) ; 
                 }
             }
-        ) ;  */
+        ) ;  
     }
     public GridLayout.LayoutParams parameters(int posX,int posY){
         GridLayout.Spec specY = GridLayout.spec(posY,1) ;

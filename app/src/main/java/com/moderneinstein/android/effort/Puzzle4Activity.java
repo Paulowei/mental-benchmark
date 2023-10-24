@@ -148,19 +148,19 @@ public class Puzzle4Activity extends Activity {
                     }
                 ) ;  }  
     public  void setCount(Integer venue) {
-         this.counts = venue ; 
-        TextView noted = (TextView)array4[1] ; 
-        String strides = new String("Score : ") + String.valueOf (venue) ; 
-        noted.setText (strides) ; 
+         this.counts = venue ;    
+        TextView noted = (TextView)array4[1] ;   
+        String strides = new String("Score : ") + String.valueOf (venue) ;   
+        noted.setText (strides) ;     
     }
     public void search( ){
         int width =  groups.length ;  
         array5 = new ViewGroup[width] ; 
         for( int bh=0;bh<width;bh++){
             ViewGroup phase = (ViewGroup)(findViewById(groups[bh])) ; 
-            array5[bh] = phase ;     } 
-        width =  views.length ;
-         array4 = new View[width ] ; 
+            array5[bh] = phase ;     }   
+        width =  views.length ;     
+         array4 = new View[width ] ;   
         for(int fr=0 ;fr<width;fr++){
             View diverse =  (View)(requireViewById(views[fr])) ; 
             array4[fr]  =   diverse ;     } 
